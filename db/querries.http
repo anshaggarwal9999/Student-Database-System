@@ -1,0 +1,16 @@
+GET http://localhost:4004/student/Student?$expand=Institution
+###
+
+GET http://localhost:4004/student/Institution?$expand=student
+###
+
+POST http://localhost:4004/student/Student
+Content-Type: application/json
+
+{"email": "harry@gmail.com", 
+"first_name": "Harry", 
+"last_name": "Walia", 
+"current_year": 4, 
+"sign_up_dt": "2014-08-30", 
+"stream": "Bba-B&I"
+"Institution_ID": 9}

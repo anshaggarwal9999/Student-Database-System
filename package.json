@@ -1,0 +1,20 @@
+{
+  "name": "student",
+  "version": "1.0.0",
+  "description": "A simple CAP project.",
+  "repository": "<Add your repository here>",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "3": "^2.1.0",
+    "@sap/cds": "^4",
+    "express": "^4.17.1",
+    "sqlite": "^4.0.19"
+  },
+  "devDependencies": {
+    "sqlite3": "^5"
+  },
+  "scripts": {
+    "start": "cds run"
+  }
+}
